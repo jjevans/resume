@@ -297,20 +297,27 @@
 
 
 %outline box
-\vspace*{4mm}
+%\vspace*{4mm}
 
+\section{\Large{Skills}}
+%\fbox{\parbox{\linewidth}{
+%\vspace*{1mm}
+\begin{minipage}{0.4\linewidth}
 \fbox{\parbox{\linewidth}{
-\vspace*{-2mm}
-\section{\Large{Technical Skills}}
-
+\vspace*{1mm}
+\begin{flushleft}\Large{Leadership Style}\end{flushleft}
 \smartdiagram[descriptive diagram]{
-{Set up,The set up operation consist of..},
-{Run, {After having set up the program, you must run..}},
-{Analyse, You must check what did with analytical tools like..},
-{Modify, {After the analysis, you can still modify or add..}},
-}
-    \vspace{-7pt}
-    \begin{itemize}
+{\small{Example},Lead by showing the way we do business},
+{\small{Conversation}, Lead in question and answer by working in a team dynamic},
+{\small{Coaching}, Nurture and teaching leads to creative solutions},
+{\small{Transformation}, Inspire through understanding our future},
+}}}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.57\linewidth}
+%    \vspace{-7pt}
+\fbox{\parbox{\linewidth}{ 
+   \begin{itemize}
     [leftmargin=0.15in, label={}]\small{\item{
         % LANGUAGES
         \textbf{Languages}{: STUFF} \\
@@ -319,6 +326,9 @@
         % TECHNOLOGIES
         \textbf{Technologies/Frameworks}{: STUFF} \\}}
     \end{itemize}
-	\vspace*{0mm}
 }}
+	\vspace*{0mm}
+\end{minipage}
+%box around skills
+%}}
 \end{document}
